@@ -1,0 +1,180 @@
+* {
+	
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom:0;
+	
+	margin:0;padding:0;border:none;
+	font-family: "Segoe UI";
+	text-Shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+
+	text-decoration: none;
+	color: #333333;
+	
+}
+
+header {
+
+	position:relative;
+	
+	height:150px;
+	width:100%;
+	
+	
+	background-image: -webkit-gradient(linear,left top,left center, from(#333333), to(#111111));
+	background-image: -moz-linear-gradient(top, #333333, #111111);
+	background-image: -ms-linear-gradient(top, #333333, #111111);
+	
+	color:#dddddd;
+
+}
+
+#main {
+	position:relative;
+	height:500px;
+	width:100%;
+	background-repeat:no-repeat;
+	
+	background-image: -webkit-gradient(linear,left top,left center, from(#cccccc), to(#dddddd));
+	background-image: -moz-linear-gradient(top, #cccccc, #dddddd);
+	background-image: -ms-linear-gradient(top, #cccccc, #dddddd);
+	
+	text-align: center;
+}
+
+footer {
+	position:relative;
+	font-size:12px;
+	height:100px;
+	width:100%;
+	background-image: -webkit-gradient(linear,left top,left center, from(#333333), to(#111111));
+	background-image: -moz-linear-gradient(top, #333333, #111111);
+	background-image: -ms-linear-gradient(top, #333333, #111111);
+	
+	color:#dddddd;
+	
+}
+
+#instructions {
+	
+	font-size:12px;
+	width:300px;
+	padding-top:30px;
+	padding-left:800px;
+	color: #dddddd;
+}
+
+#instructions h1 {
+	font-size:14px;
+	text-decoration:underline;
+	color: #dddddd;
+}
+
+#drop {
+	
+	font-size:40px;
+	position:relative;
+	display:block;
+	
+	text-align:center;
+	
+	width:300px;
+	height:80px;
+	
+	padding-top:20px;
+	
+	text-align:center;
+	
+	top:100px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	border-radius:6px;
+	background: -webkit-gradient(linear,left top,left center, from(#222222), to(#111111));
+	background-image: -moz-linear-gradient(top, #222222, #111111);
+	background-image: -ms-linear-gradient(top, #222222, #111111);
+	
+	color: #aaaaaa;
+	
+	background-size:100%;
+}
+
+#drop:hover {
+	background-image: -webkit-gradient(linear,left top,left center, from(#333333), to(#222222));
+	background-image: -moz-linear-gradient(top, #333333, #222222);
+	background-image: -ms-linear-gradient(top, #333333, #222222);
+	color:#bbbbbb;
+	cursor:pointer;
+}
+
+.button {
+	position:relative;
+	top:100px;
+	
+
+	display:none;
+	
+	width:300px;
+	height:80px;
+	
+	padding-top:20px;
+	
+	text-align:center;
+	font-size:40px;
+	color: #aaaaaa;
+	
+	
+	
+	border-radius:6px;
+	
+	background-image: -webkit-gradient(linear,left top,left center, from(#222222), to(#111111));
+	background-image: -moz-linear-gradient(top, #222222, #111111);
+	background-image: -ms-linear-gradient(top, #222222, #111111);
+}
+
+.button:hover {
+	background-image: -webkit-gradient(linear,left top,left center, from(#333333), to(#222222));
+	background-image: -moz-linear-gradient(top, #333333, #222222);
+	background-image: -ms-linear-gradient(top, #333333, #222222);
+	color:#bbbbbb;
+	cursor:pointer;
+}
+
+#copy_url {
+	position:relative;
+	display:none;
+	width:300px;
+	top:130px;
+
+
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#copy_url textarea {
+	background-image: -webkit-gradient(linear,left top,left center, from(#222222), to(#111111));
+	background-image: -moz-linear-gradient(top, #222222, #111111);
+	background-image: -ms-linear-gradient(top, #222222, #111111);
+	border-radius:6px;
+	color: #aaaaaa;
+	
+	text-align:center;
+	padding-top:15px;
+	resize: none;
+	white-space:nowrap;
+	overflow:hidden;
+	font-size:12px;
+	width:300px;
+	
+}
+
+#copy_url textarea:hover {
+	background-image: -webkit-gradient(linear,left top,left center, from(#333333), to(#222222));
+	background-image: -moz-linear-gradient(top, #333333, #222222);
+	background-image: -ms-linear-gradient(top, #333333, #222222);
+	color:#bbbbbb;
+	cursor:pointer;
+}
