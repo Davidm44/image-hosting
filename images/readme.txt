@@ -1,0 +1,1 @@
+uploaded images go in this folder
